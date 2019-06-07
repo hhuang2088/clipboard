@@ -14,10 +14,10 @@ const Desktop = () => {
 				</p>
 			</div>
 			<div className="ui two column grid" id="desktop-grid">
-				<div className="eight wide column" id="desktop-image">
+				<div className="sixteen wide mobile eight wide computer column" id="desktop-image">
 					<img className="ui fluid image" src={desktopImage} alt="desktop"/>
 				</div>
-				<div className="seven wide column right floated" id="feature-list">
+				<div className="sixteen wide mobile seven wide computer column right floated" id="feature-list">
 					<div className="ui basic segment">
 						<h3 className="ui medium header">Quick Search</h3>
 						<p className="ui grey tiny header">

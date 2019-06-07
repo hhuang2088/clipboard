@@ -16,7 +16,7 @@ const Features = () => {
 				</div>
 			</div>
 			<div className="row">
-				<div className="column">
+				<div className="sixteen wide mobile five wide computer column">
 					<div className="ui center aligned basic segment">
 						<img className="ui centered mini image" src={blacklist} alt="create blacklist" />
 						<h3 className="ui header">Create Blacklists</h3>
@@ -27,7 +27,7 @@ const Features = () => {
 						</p>
 					</div>
 				</div>
-				<div className="column">
+				<div className="sixteen wide mobile five wide computer column">
 					<div className="ui center aligned basic segment">
 						<img className="ui centered mini image" src={text} alt="plain text snippets" />
 						<h3 className="ui header">Plain text snippets</h3>
@@ -37,7 +37,7 @@ const Features = () => {
 						</p>
 					</div>
 				</div>
-				<div className="column">
+				<div className="sixteen wide mobile five wide computer column">
 					<div className="ui center aligned basic segment">
 						<img className="ui centered mini image" src={preview} alt="sneak preview" />
 						<h3 className="ui header">Sneak preview</h3>
