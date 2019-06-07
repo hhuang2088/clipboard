@@ -7,11 +7,11 @@ const Header = () => {
 		<div id="header">
 			<div className="ui basic center aligned segment">
 				<div id="logo">
-					<img className="ui centered image" src={logo} />
+					<img className="ui centered image" src={logo} alt="logo"/>
 				</div>
 				<div id="text">
 					<h1 className="ui huge header">A history of everything you copy</h1>
-					<p className="ui grey header">
+					<p className="ui grey tiny header">
 						Clipboard allws you to track and organize everything you copy. Instantly<br />
 						access your clipboard on all your devices.
 					</p>
