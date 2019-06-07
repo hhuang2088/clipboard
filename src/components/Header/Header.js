@@ -6,14 +6,14 @@ import backgroundMobile from '../../images/bg-header-mobile.png';
 
 class Header extends React.Component {
 	state = {
-		width: 0,
-		height: 0,
+		width: window.innerWidth,
+		height: window.innerHeight,
 		background: undefined
 	};
 
 	componentDidMount() {
 		this.updateWindowDimensions();
-  	window.addEventListener('resize', this.updateWindowDimensions);
+		window.addEventListener('resize', this.updateWindowDimensions);
 	};
 
 	componentWillUnmount() {
