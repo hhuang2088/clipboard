@@ -22,7 +22,6 @@ class Header extends React.Component {
 
 	updateWindowDimensions = () => {
   	this.setState({ width: window.innerWidth, height: window.innerHeight });
-		console.log(this.state.width);
 		if(this.state.width > 750 && this.state.background !== backgroundDesktop) {
 			this.setState({ background: backgroundDesktop });
 		} else if(this.state.width <= 750 && this.state.background !== backgroundMobile){
