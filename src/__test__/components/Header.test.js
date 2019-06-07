@@ -22,6 +22,6 @@ describe('the Header component', () => {
 	});
 
 	it('the div with logo buttons has two buttons', () => {
-		expect(wrapper.find('#buttons').find('button').length).toEqual(2);
-	})
+		expect(wrapper.find('#buttons').children().find('button').length).toEqual(2);
+	});
 });
